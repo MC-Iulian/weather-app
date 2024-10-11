@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meteo App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="page-container">
+        <!-- first section -->
+        <div class="sidebar">
+            <form id="cityForm" class="city-form">
+                <label for="city">Introduceti orasul</label>
+                <input id="city" type="text" placeholder="Bucuresti, Cluj, Pitesti" required>
+                <button class="btn btn-search">Cauta</button>
+            </form>
+            <div class="separator">
+                <span class="separator-text">sau</span>
+            </div>
+            <button id="locationBtn" class="btn btn-location">Foloseste locatia curenta</button>
+        </div>
+        <!-- date meteo -->
+        <div class="page-content">
+            <div>
+                <h2 class="section-title">Vremea in Bucuresti astazi</h2>
+                <div class="weather-panel today">
+                    <div class="weather-details">
+                        <p class="date">2024-10-11, 11:00</p>
+                        <p>Temperatura: 10.7°C</p>
+                        <p>Vant: 4.5 km/h</p>
+                        <p>Umiditate: 54 %</p>
+                    </div>
+                    <div>
+                        <img src="weather-icons/cloudy.svg" alt="weather icon">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 class="section-title">Vremea in Bucuresti in urmatoarele zile</h2>
+                <div class="weather-items">
+                    <div class="weather-panel forecast">
+                        <div class="weather-details">
+                            <p class="date">2024-10-11, 11:00</p>
+                            <p>Temperatura: 10.7°C</p>
+                            <p>Vant: 4.5 km/h</p>
+                            <p>Umiditate: 54 %</p>
+                        </div>
+                        <div>
+                            <img src="weather-icons/cloudy.svg" alt="weather icon">
+                        </div>
+                    </div>
+                    <div class="weather-panel forecast">
+                        <div class="weather-details">
+                            <p class="date">2024-10-11, 11:00</p>
+                            <p>Temperatura: 10.7°C</p>
+                            <p>Vant: 4.5 km/h</p>
+                            <p>Umiditate: 54 %</p>
+                        </div>
+                        <div>
+                            <img src="weather-icons/cloudy.svg" alt="weather icon">
+                        </div>
+                    </div>
+                    <div class="weather-panel forecast">
+                        <div class="weather-details">
+                            <p class="date">2024-10-11, 11:00</p>
+                            <p>Temperatura: 10.7°C</p>
+                            <p>Vant: 4.5 km/h</p>
+                            <p>Umiditate: 54 %</p>
+                        </div>
+                        <div>
+                            <img src="weather-icons/cloudy.svg" alt="weather icon">
+                        </div>
+                    </div>
+                    <div class="weather-panel forecast">
+                        <div class="weather-details">
+                            <p class="date">2024-10-11, 11:00</p>
+                            <p>Temperatura: 10.7°C</p>
+                            <p>Vant: 4.5 km/h</p>
+                            <p>Umiditate: 54 %</p>
+                        </div>
+                        <div>
+                            <img src="weather-icons/cloudy.svg" alt="weather icon">
+                        </div>
+                    </div>
+                    <div class="weather-panel forecast">
+                        <div class="weather-details">
+                            <p class="date">2024-10-11, 11:00</p>
+                            <p>Temperatura: 10.7°C</p>
+                            <p>Vant: 4.5 km/h</p>
+                            <p>Umiditate: 54 %</p>
+                        </div>
+                        <div>
+                            <img src="weather-icons/cloudy.svg" alt="weather icon">
+                        </div>
+                    </div>
+                    <div class="weather-panel forecast">
+                        <div class="weather-details">
+                            <p class="date">2024-10-11, 11:00</p>
+                            <p>Temperatura: 10.7°C</p>
+                            <p>Vant: 4.5 km/h</p>
+                            <p>Umiditate: 54 %</p>
+                        </div>
+                        <div>
+                            <img src="weather-icons/cloudy.svg" alt="weather icon">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
