@@ -1,2 +1,3 @@
 # weather-app
-weather-app
+
+![weather](./weather.PNG)
